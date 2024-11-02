@@ -6,3 +6,4 @@
 /.quarto/
 /_book/
 
+03_Semantic_Segmentation/01__Crop_Mapping/notebooks/content/*
