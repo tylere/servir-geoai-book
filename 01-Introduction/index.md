@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1 - Introduction"
+title: "Introduction"
 author: "Norah Smith"
 ---
 
