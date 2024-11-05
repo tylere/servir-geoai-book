@@ -3,9 +3,30 @@ project:
 
 book:
   title: "SERVIR's Applied Deep Learning Handbook"
-  author: "Norah Jones"
-  date: "10/31/2024"
+  author:
+    - name: Ate Poortinga
+      affiliations:
+        - id: sig
+          name: Spatial Informatics Group, LLC
+    - name: Biplov Bhandari
+      affiliations:
+        - id: woolpert
+          name: Woolpert Digital Innovations
+    - name: Lilly Thomas
+      affiliations:
+        - name: Development Seed
+    - name: Tim Mayer
+      affiliations:
+        - id: nasa-servir
+          name: NASA - SERVIR
+        - id: UofA-huntsville
+          name: The University of Alabama in Huntsville
+
+  date: "11/05/2024"
   cover-image: images/Book_Cover.png
+  repo-url: https://github.com/tylere/servir-geoai-book/
+  repo-actions: [source, edit, issue]
+  downloads: [pdf, epub]
   chapters:
     - index.md
     - part: "Curriculum"
@@ -26,6 +47,8 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:  # pandoc, default, flatly, darkly, sketchy, sandstone, cyborg, zephyr
+      light: flatly
+      dark: darkly
   pdf:
-    documentclass: scrreprt
+    documentclass: scrreprt  # book
